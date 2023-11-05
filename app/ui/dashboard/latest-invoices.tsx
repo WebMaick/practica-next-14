@@ -3,6 +3,7 @@ import clsx from "clsx"
 import Image from "next/image"
 import { lusitana } from "../fonts/fonts"
 import { LatestInvoice } from "@/app/lib/definitions"
+
 export default async function LatestInvoices({
   latestInvoices,
 }: {
